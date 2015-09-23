@@ -89,7 +89,7 @@ def parseScheme(colors):
 # #else
                 'size': 11,
 # #endif
-                
+
                 'useFixed': 1,
                 'bold': 0,
                 'lineSpacing': 2
@@ -277,6 +277,16 @@ def parseScheme(colors):
                 },
                 'commentdockeyworderror': {
                     'fore': colors["red"]
+                }
+            },
+            'Python': {
+                'docstrings': {
+                    'fore': colors["green"]
+                }
+            },
+            'Python3': {
+                'docstrings': {
+                    'fore': colors["green"]
                 }
             }
         },
